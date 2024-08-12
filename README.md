@@ -1,1 +1,2 @@
-<!-- person blog built with fastapi -->
+<!-- personal blog built with fastapi -->
+

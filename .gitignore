@@ -23,6 +23,7 @@ venv
 docs.zip
 archive.zip
 db.sqlite3
+.db
 *.sqlite3
 *.log
 *.pot
@@ -38,6 +39,8 @@ db.sqlite3
 .DS_Store
 # Backup files # 
 *.bak 
+
+blog.db
 
 
 # Generated files

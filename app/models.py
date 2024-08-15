@@ -1,12 +1,13 @@
-""" this contains the the database schema for the app """
+"""Contains the the database schema for the app."""
 
-from sqlalchemy import Column, Integer, String, ForeignKey, DateTime
+from sqlalchemy import Column, DateTime, ForeignKey, Integer, String
 from sqlalchemy.orm import relationship
+
 from app.database import Base
 
 
 class User(Base):
-    """This is the User model for the database"""
+    """User model for the database."""
 
     __tablename__ = "users"
 
@@ -23,7 +24,7 @@ class User(Base):
 
 
 class Post(Base):
-    """This is the Post model for the database"""
+    """Post model for the database."""
 
     __tablename__ = "posts"
 
@@ -38,7 +39,7 @@ class Post(Base):
 
 
 class Comment(Base):
-    """This is the Comment model for the database"""
+    """Comment model for the database."""
 
     __tablename__ = "comments"
 
